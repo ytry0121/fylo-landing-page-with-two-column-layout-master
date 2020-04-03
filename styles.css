@@ -1,0 +1,263 @@
+/*Common*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    color: hsl(0, 0%, 20%);
+}
+
+h1, h2, button {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    width: 80%;
+}
+
+::placeholder {
+    color: hsl(0, 0%, 75%);
+    font-size: 0.9rem;
+}
+
+button {
+    background-color: hsl(224, 93%, 58%);
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    font-size: 0.9rem;
+    padding: 0.9rem;
+    width: 12.5rem;
+    margin-top: 1rem;
+}
+
+.frame {
+    padding: 5rem;
+}
+
+header {
+    padding: 5rem 2rem 5rem 5rem;
+}
+
+.header-contents-ul {
+    float: right;
+}
+
+.header-contents-ul a {
+    text-decoration: none;
+    color: hsl(0, 0%, 40%);
+}
+
+.menu-links {
+    font-family: 'Raleway', sans-serif;
+    list-style-type: none;
+    float: left;
+    padding: 0 2rem;
+}
+
+.container-features {
+    padding: 1rem 5rem;
+}
+
+.features-img {
+    width: 50%;
+    float: right;
+}
+
+.contents-detail {
+    width: 50%;
+}
+
+.features-h {
+    padding-top: 4rem;
+}
+
+.features-p {
+    width: 90%;
+    word-spacing: 1px;
+    font-size: 1.1rem;
+}
+
+.input-features {
+    width: 85%;
+}
+
+.input-features input {
+    width: 18rem;
+    border-radius: 5px;
+    border: 1px solid hsl(0, 0%, 40%);
+    padding: 0.95rem;
+    margin-right: 0.8rem;
+}
+
+.bg-curve {
+    width: 100%;
+    display: block;
+}
+
+.container-team {
+    background-color: hsl(240, 75%, 98%);
+    padding: 3rem 3rem 3rem 5rem;
+}
+
+.team-h {
+    margin-bottom: 2rem;
+}
+
+.team-img {
+    float: right;
+    margin-top: 2rem;
+    width: 41%;
+}
+
+#features-link {
+    color: hsl(170, 45%, 43%);
+    /*    text-decoration: underline;
+    text-underline-position:under;
+*/
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+    padding: 0.3rem 0;
+}
+
+.features-link-img {
+    vertical-align: middle;
+}
+
+.card {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1rem 1rem 1rem hsl(0, 0%, 75%);
+    font-size: 0.80em;
+    padding: 1.5rem 1rem 0 2rem;
+    width: 21rem;
+    height: 12rem;
+    margin-top: 3rem;
+    line-height: 1.6;
+}
+
+.card p {
+    letter-spacing: 1px;
+    width: 20rem;
+}
+
+#avatar-img {
+    border-radius: 50%;
+    border: none;
+    width: 2rem;
+    margin-top: 0.5rem;
+}
+
+.avatar-caption {
+    left: 2.5rem;
+    bottom: 2.5rem;
+    position: relative;
+}
+
+.avatar-name {
+    margin: 0.2rem 0 0.1rem;
+    font-weight: bold;
+    font-size: 0.7rem;
+}
+
+.avatar-position {
+    font-size: 0.5rem;
+}
+
+.container-signin {
+    background-color: hsl(238, 22%, 44%);
+    color: #ffffff;
+    padding: 5rem 5rem;
+}
+
+.contents-signin-detail {
+    width: 50%;
+    letter-spacing: 0.4px;
+}
+
+.input-signin {
+    float: right;
+    width: 40%;
+    position: relative;
+    right: 0.5rem;
+}
+
+.input-signin input {
+    width: 450px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    padding: 1rem;
+}
+
+footer {
+    background-color: hsl(243, 87%, 12%);
+    color: #ffffff;
+    overflow: hidden;
+    padding: 7rem 15rem 5rem 5rem;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+.footer-logo {
+    filter: brightness(0) invert(1);
+}
+
+.footer-contents-div{
+    display:flex;
+    justify-content:space-between;
+}
+.footer-contents-ul {
+    float: left;
+    list-style-type: none;
+    padding: 0;
+}
+.footer-contents-ul li{
+    margin-bottom: 1rem;
+}
+.footer-contents-ul a {
+    text-decoration: none;
+}
+.footer-contents-ul a :hover{
+    text-decoration: underline;
+}
+
+.icon-img{
+    margin-right:1rem;
+}
+.social-links {
+    border: 1px solid;
+    border-color: #ffffff;
+    border-radius: 50%;
+    color: #ffffff;
+    float: left;
+    margin-right: 0.7rem;
+}
+
+.fa {
+    width: 1em;
+    text-align: center;
+    line-height: 100%;
+    vertical-align: middle;
+    padding: 7px;
+}
+
+/*
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+*/
