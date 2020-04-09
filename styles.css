@@ -97,9 +97,13 @@ header {
     margin-right: 0.8rem;
 }
 
-.bg-curve {
+.bg-curve-desktop {
     width: 100%;
     display: block;
+}
+
+.bg-curve-mobile {
+    display: none;
 }
 
 .container-team {
@@ -117,7 +121,7 @@ header {
     width: 41%;
 }
 
-#features-link {
+.features-link-a {
     color: hsl(170, 45%, 43%);
     /*    text-decoration: underline;
     text-underline-position:under;
@@ -134,7 +138,7 @@ header {
     background-color: #ffffff;
     border: none;
     border-radius: 10px;
-    box-shadow: 1rem 1rem 1rem hsl(0, 0%, 75%);
+    box-shadow: 0 0 10px hsl(0, 0%, 82%);
     font-size: 0.80em;
     padding: 1.5rem 1rem 0 2rem;
     width: 21rem;
@@ -144,7 +148,7 @@ header {
 }
 
 .card p {
-    letter-spacing: 1px;
+    /*    letter-spacing: 1px;*/
     width: 20rem;
 }
 
@@ -175,22 +179,26 @@ header {
     background-color: hsl(238, 22%, 44%);
     color: #ffffff;
     padding: 5rem 5rem;
+    display: flex;
 }
 
 .contents-signin-detail {
-    width: 50%;
+    width: 60%;
     letter-spacing: 0.4px;
 }
 
+.contents-signin-detail p {
+    width: 70%;
+}
+
 .input-signin {
-    float: right;
-    width: 40%;
-    position: relative;
-    right: 0.5rem;
+    width: 35%;
+    padding-top: 10px;
 }
 
 .input-signin input {
-    width: 450px;
+    max-width: 450px;
+    width: 100%;
     font-size: 1rem;
     border-radius: 5px;
     border: none;
@@ -212,28 +220,33 @@ footer a {
     filter: brightness(0) invert(1);
 }
 
-.footer-contents-div{
-    display:flex;
-    justify-content:space-between;
+.footer-contents-div {
+    display: flex;
+    justify-content: space-between;
 }
+
 .footer-contents-ul {
     float: left;
     list-style-type: none;
     padding: 0;
 }
-.footer-contents-ul li{
+
+.footer-contents-ul li {
     margin-bottom: 1rem;
 }
+
 .footer-contents-ul a {
     text-decoration: none;
 }
-.footer-contents-ul a :hover{
+
+.footer-contents-ul a :hover {
     text-decoration: underline;
 }
 
-.icon-img{
-    margin-right:1rem;
+.icon-img {
+    margin-right: 1rem;
 }
+
 .social-links {
     border: 1px solid;
     border-color: #ffffff;
@@ -261,3 +274,164 @@ footer a {
     color: hsl(228, 45%, 44%);
 }
 */
+
+@media only screen and (max-width: 950px) {
+    body {
+        font-size: 14px;
+        text-align: center;
+    }
+    h1 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.5rem;
+    }
+    header {
+        padding: 1.5rem;
+    }
+    .header-logo-img {
+        width: 25%;
+    }
+    .header-contents-ul {
+        margin: 0;
+    }
+    .menu-links {
+        padding: 0 0 0 1rem;
+    }
+    .container-features {
+        padding: 1rem 1.5rem;
+    }
+    .features-img {
+        width: 100%;
+        float: unset;
+    }
+    .contents-detail {
+        width: 100%;
+    }
+    .features-p {
+        width: 95%;
+        padding: 0px 0.5rem;
+        font-size: 14px;
+    }
+    .input-features {
+        width: 100%;
+        max-width:350px;
+        margin:0 auto;
+    }
+    .input-features input {
+        width: 100%;
+        border-radius: 3px;
+        padding: 0.7rem 0;
+        margin: 0;
+    }
+    button {
+        width: 100%;
+        max-width:350px;
+        padding: 0.5rem;
+        font-size: 14px;
+    }
+    .bg-curve-desktop {
+        display: none;
+    }
+    .bg-curve-mobile {
+        width: 100%;
+        display: block;
+    }
+    .container-team {
+        padding: 1rem 1.5rem 5rem;
+    }
+    .team-img {
+        float: none;
+        width: 100%
+    }
+    .team-h {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    .team-p {
+        width: 100%;
+        text-align: left;
+        color: hsl(0, 0%, 45%);
+        font-size: 14px;
+    }
+    .features-link {
+        margin: 2rem 0;
+    }
+    .card {
+        text-align: left;
+        border-radius: 5px;
+        margin: 0 auto;
+        width: 260px;
+        height: 140px;
+        padding: 20px 15px 10px 30px;
+        line-height: 1.7;
+    }
+    .card p {
+        width: 100%;
+        margin: 5px 0;
+    }
+    #quotes-img {
+        width: 10px;
+    }
+    #avatar-img {
+        width: 1.5rem;
+    }
+    .avatar-caption {
+        left: 30px;
+        bottom: 35px;
+    }
+    .avatar-name {
+        font-size: 10px
+    }
+    .container-signin {
+        padding: 3rem 2.5rem;
+        display: block;
+    }
+    .contents-signin-detail {
+        width: 100%;
+    }
+    .contents-signin-detail h2 {
+        font-size: 1rem;
+    }
+    .contents-signin-detail p {
+        width: 100%;
+    }
+    .input-signin {
+        width:90%;
+        max-width:350px;
+        margin:0 auto;
+    }
+    .input-signin input {
+        border-radius: 3px;
+        padding: 6px 0;
+    }
+    ::placeholder {
+        font-size: 12px;
+        padding: 0 1rem;
+    }
+    .input-signin button{
+        font-size: 10px;
+    }
+    footer{
+        text-align: left;
+        padding: 3rem 2.5rem;
+    }
+    .footer-contents-div{
+     display: block;   
+    }
+    .footer-contents-ul{
+       float: unset; 
+       margin: 2.5rem 0 3.5rem;
+    }
+    .footer-contents-ul li{
+        font-size: 16px;
+    }
+    .social-links{
+        margin: auto 5px;
+    width: 32px;
+    display:block;
+    text-align: center;
+    }
+    .sns{
+        display:flex;
+        justify-content: center;
+    }
+}
